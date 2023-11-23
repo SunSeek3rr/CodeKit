@@ -1,0 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 3000px;
+}
+.top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
