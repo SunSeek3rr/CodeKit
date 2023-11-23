@@ -1,0 +1,21 @@
+body{
+    width: 500vw;
+    height: 480px;
+}
+.parallax__layer{
+    position: fixed;
+    width: 640px;
+    height: 480px;
+    top: 0;
+    left: 0;
+}
+
+.parallax__layer--back{
+    background-image: url(./images/Sky_back_layer.png);
+}
+.parallax__layer--middle{
+    background-image: url(./images/Vegetation_middle_layer.png);
+}
+.parallax__layer--front{
+    background-image: url(./images/Ground_front_layer.png);
+}
