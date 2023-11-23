@@ -1,0 +1,60 @@
+/*Beautiful.ai -> ai pour powerpoint
+codegrid -> tutos */
+
+:root{
+    --color-bg: #ffffff;
+    --color-offset: #181818;
+    --color-text: #444;
+    --color-text-offset:#FAFAFA;
+    --color-primary:#BADA55;
+    --color-secondary:#3700b3;
+}
+body{
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --color-bg: #181818;
+        --color-offset: #FFFFFF;
+        --color-text: #FAFAFA;
+        --color-text-offset:#444;
+        --color-primary:#3700b3;
+        --color-secondary:#fff;
+    }
+}
+[data-theme="light"]{
+    --color-bg: #ffffff;
+    --color-offset: #181818;
+    --color-text: #444;
+    --color-text-offset:#FAFAFA;
+    --color-primary:#BADA55;
+    --color-secondary:#3700b3;
+}
+[data-theme="dark"]{
+    --color-bg: #181818;
+    --color-offset: #FFFFFF;
+    --color-text: #FAFAFA;
+    --color-text-offset:#444;
+    --color-primary:#3700b3;
+    --color-secondary:#fff;
+}
+    body{
+        background-color: var(--color-bg);
+        color: var(--color-text);
+    }
+    .btn{
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        background: transparent;
+        font-family: sans-serif;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    .btn--darkmode{
+        background-color: var(--color-primary);
+        color: var(--color-secondary);
+
+    }

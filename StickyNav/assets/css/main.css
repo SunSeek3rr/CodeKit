@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page{
+    padding-top: 5em;
+    min-height: 300vh;
+    background-color: white;
+  }
+  
+  .menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    transition: transform .5s ease-out;
+  }
+  
+  .menu--hidden{
+    transform: translateY(-100%);
+  }
+  
+  .menu__list{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .menu__el{
+    margin: 0 10px;
+  }
+
+  .menu__el a{
+   display: inline-block;
+   padding: 10px;
+  }
+  
